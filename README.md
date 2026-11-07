@@ -9,6 +9,18 @@
 
 This notebook examines how building design characteristics relate to simulated heating and cooling requirements. It looks beyond overall model accuracy by comparing different ways of testing predictions and checking whether errors differ between shorter and taller building configurations.
 
+## Interactive Research Dashboard
+
+The research findings are also presented in the **EcoBuild Energy Intelligence Research Story**, a standalone interactive HTML dashboard.
+
+**[Open the Live EcoBuild Research Dashboard](https://bwayvs.github.io/Ecobuild/notebooks/EcoBuild_Energy_Intelligence_Research_Story.html#eda)**
+
+The dashboard includes seven views covering data exploration, key findings, model performance, validation methods, model reliability, design characteristics, and data governance.
+
+It allows readers to explore heating and cooling results, compare prediction errors, and review the limitations of the simulated dataset.
+
+The dashboard is a research communication tool, separate from the team's Streamlit application. It has not been formally evaluated through user testing.
+
 My focus is **data quality, exploratory analysis, model reliability, and responsible interpretation of the results**. This notebook supports my individual research paper and the EcoBuild decision-support dashboard. It is not the team's production application.
 
 ## Dataset
