@@ -2,7 +2,7 @@
 
 **Project:** EcoBuild: Building Energy Efficiency Predictor  
 **Researcher:** Veronica Broadway  
-**Notebook:** `EcoBuild_Research_Notebook_VeronicaBroadway_RUNALL.ipynb`  
+**Notebook:** `notebooks/EcoBuild_Research.ipynb`  
 **Part of:** University of North Texas, DTSC 5082 research project
 
 ## Overview
@@ -41,7 +41,7 @@ The notebook also includes a separate, more restrictive geometry-only validation
 ### Option A — Google Colab (recommended)
 
 1. Open [Google Colab](https://colab.research.google.com/).
-2. Choose **Upload** and select `EcoBuild_Research_Notebook_VeronicaBroadway_RUNALL.ipynb` from this repository.
+2. Choose **Upload** and select `notebooks/EcoBuild_Research.ipynb` from this repository.
 3. Select **Runtime → Run all**.
 4. Allow the initial cell to install `ucimlrepo` if prompted. The notebook automatically attempts to download the public UCI dataset.
 5. Review the results and download `EcoBuild_Research_Results.zip` when execution finishes.
@@ -54,7 +54,7 @@ Use Python 3 with Jupyter Notebook or JupyterLab. Install the dependencies:
 
 ```bash
 python -m pip install jupyter numpy pandas matplotlib scikit-learn ucimlrepo openpyxl ipython
-jupyter notebook EcoBuild_Research_Notebook_VeronicaBroadway_RUNALL.ipynb
+jupyter notebook notebooks/EcoBuild_Research.ipynb
 ```
 
 Then choose **Run All Cells** in Jupyter. `openpyxl` is needed only when loading an Excel fallback dataset.
